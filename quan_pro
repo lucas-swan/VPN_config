@@ -14,26 +14,19 @@ resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scri
 # 用于节点页面的信息展示，可完整自定义
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/IP_API.js
 
-profile_img_url= https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/img/dragonball/1.PNG
-# server_check_url 
-# Quantumult X 会对指定的网址进行相应测试，以确认节点的可用性
-network_check_url=http://www.baidu.com/
+# server_check_url Quantumult X 会对指定的网址进行相应测试，以确认节点的可用性
 server_check_url=http://www.gstatic.com/generate_204
-
-#第一个filter为4g模式开启规则分流，第二个filter为其他wifi下开启规则分流，第三个wifi1修改成你路由器翻墙的wifi名开启直连模式，第四个wifi2为你需要全局代理的wifi名（这个一般不需要随便写就行）
-#默认关闭根据wifi切换模式，如需开启，删除下方的“#”即可！
-#running_mode_trigger=filter, filter, wifi1:all_direct, wifi2: all_proxy
 
 [dns]
 # 指定的 dns 服务器
+server=114.114.114.114
 server=119.29.29.29
 server=119.28.28.28
+server=223.5.5.5
 server=1.0.0.1
 server=8.8.8.8
 server=182.254.116.116
 server=1.2.4.8
-server=223.5.5.5
-server=114.114.114.114
 server=202.141.176.93 
 server=202.141.178.13
 server=117.50.10.10
@@ -50,25 +43,25 @@ server=/*.bilibili.com/119.29.29.29
 server=/*.netease.com/119.29.29.29
 server=/*testflight.apple.com/23.76.66.98
 
-
 [policy]
-## 策略组
-## 将分流规则传递过来的网络请求进行分发
-
-static=🚀 节点选择, ♻️ 自动选择, 🔮 负载均衡,🇭🇰 香港,🇯🇵 日本,🇸🇬 新加坡,🇺🇸 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Available.png
+## 策略组 将分流规则传递过来的网络请求进行分发
+static=🚀 节点选择, ♻️ 自动选择,🔮 负载均衡,💡 手动选择,🇭🇰 香港,🇯🇵 日本,🇸🇬 新加坡,🇺🇸 美国, PROXY, DIRECT
 # 默认设置10分钟测速一次，当前使用节点延迟和最新测速延迟最低的节点相差100ms以上则切换为最新的最低延迟节点，否则继续延用节点
-url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=20, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png
-round-robin=🔮 负载均衡,server-tag-regex=.*, check-interval=600, tolerance=100
-url-latency-benchmark=🇭🇰 香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=50, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Hong_Kong.png
-url-latency-benchmark=🇯🇵 日本, server-tag-regex=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
-url-latency-benchmark=🇸🇬 新加坡, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Singapore.png
-url-latency-benchmark=🇺🇸 美国, server-tag-regex=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$, check-interval=600, tolerance=100, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/United_States.png
-static=🙈 网易云音乐, 解锁节点一, 🚀 节点选择, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netease_Music.png
-static=🐟 漏网之鱼, 🚀 节点选择, ♻️ 自动选择, 🇭🇰 香港,🇯🇵 日本,🇸🇬 新加坡,🇺🇸 美国, PROXY, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+url-latency-benchmark=♻️ 自动选择, server-tag-regex=.*, check-interval=600, tolerance=20
+round-robin=🔮 负载均衡, server-tag-regex=.*
+static=💡 手动选择, server-tag-regex=.*
+url-latency-benchmark=🇭🇰 香港, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台湾|日本|新加坡|美国|韩国|狮城|南朝鲜|US|SG|JP|KR|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=50
+url-latency-benchmark=🇯🇵 日本, server-tag-regex=(?=.*(日本|JP|(?i)Japan))^((?!(香港|台湾|新加坡|美国|韩国|狮城|南朝鲜|US|SG|KR|HK|TW|台灣|美國|韓國|獅城)).)*$, check-interval=600, tolerance=100
+url-latency-benchmark=🇸🇬 新加坡, server-tag-regex=(?=.*(新加坡|狮城|SG|(?i)Singapore))^((?!(香港|台湾|日本|美国|韩国|南朝鲜|US|JP|KR|HK|TW|台灣|美國|韓國)).)*$, check-interval=600, tolerance=100
+url-latency-benchmark=🇺🇸 美国, server-tag-regex=(?=.*(美国|美國|US|洛杉矶|西雅图|(?i)States|American))^((?!(香港|台湾|日本|新加坡|韩国|狮城|南朝鲜|SG|JP|KR|HK|TW|台灣|韓國|獅城)).)*$, check-interval=600, tolerance=100
+static=🙈 网易云音乐, 解锁节点一, 🚀 节点选择, DIRECT
+static=🐟 漏网之鱼, 🚀 节点选择, ♻️ 自动选择, 🇭🇰 香港,🇯🇵 日本,🇸🇬 新加坡,🇺🇸 美国, PROXY, DIRECT
 
 [server_remote]
 # 服务器引用(订阅)
 # 支持远程订阅地址和本地文件
+
+https://sspool.herokuapp.com/clash/proxies, tag=free, update-interval=86400, opt-parser=true, enabled=true
 
 [server_local]
 # 本地服务器
@@ -79,7 +72,7 @@ http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag= 解锁节点一
 # 参数「tag」、「force-policy」和「enabled」是可选的。
 # 当有强制策略时，远程资源的过滤器中的策略将被忽略，并使用强制策略。
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/NetEaseMusic/NetEaseMusic.list, tag=🙈 网易云音乐, force-policy=🙈 网易云音乐, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/NetEaseMusic/NetEaseMusic.list, tag=🙈 网易云音乐, force-policy=🙈 网易云音乐, update-interval=172800, opt-parser=true, enabled=true
 
 # Unbreak 后续规则修正
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=🔂Unbreak, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
@@ -117,26 +110,17 @@ FINAL,🐟 漏网之鱼
 # update-interval 为更新时间参数，单位：秒, 默认更新时间为：24*60*60=86400 秒，也就是24小时
 # opt-parser=true/false 用于控制是否对订阅开启资源解析器，不写或者 false 表示不启用解析器
 
-https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.tf.conf, tag=Boxjs, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机通用, update-interval=86400, opt-parser=true, enabled=true
 
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf, tag=神机通用, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=神机去广告, update-interval=86400, opt-parser=true, enabled=true
 
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf, tag=神机去广告, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告Plus, update-interval=86400, opt-parser=true, enabled=true
 
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/AdvertisingPlus.conf, tag=神机去广告Plus, update-interval=86400, opt-parser=false, enabled=true
-
-https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=神机去YT广告(Premuim会员勿开), update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=神机去YT广告(Premuim会员勿开), update-interval=86400, opt-parser=true, enabled=true
 
 [rewrite_local]
-# 本地重写
-https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-# 获取Cookie
-^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 
 [task_local]
-20 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/52pj.png, enabled=true
-5 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/iQIYI.png, enabled=true
-0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/NobyDa/mini/master/Color/jd.png, enabled=true
 
 [mitm]
-hostname = api.m.jd.com, ifac*.iqiyi.com
+
