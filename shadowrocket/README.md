@@ -24,7 +24,7 @@
  - 规则地址：https://wy.ydlrqx.com/WangYiMusic.conf
  - 规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/NeteaseMusic.conf
 
-#### h2y：（2021-03-29停更）==推荐，自用==
+#### h2y：（2021-03-29停更）【推荐，自用】
  - 总链接，内含说明，并非直接下载：
      - github链接：https://github.com/h2y/Shadowrocket-ADBlock-Rules
  - 黑名单过滤 + 广告：
@@ -42,7 +42,7 @@
         - 包含广告过滤
      - 规则地址：https://git.io/JfIXo
  
- #### lhie1：（最近更新：2021-3-6）==推荐，自用==
+ #### lhie1：（最近更新：2021-3-6）【推荐，自用】
 - 总链接，内含说明，并非直接下载：
     - github链接：https://github.com/lhie1/Rules/tree/master
 - 功能：
