@@ -21,21 +21,21 @@
 #### 解锁网易云：（二选一，一样的）
 - 规则地址：https://wy.ydlrqx.com/WangYiMusic.conf
 - 规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/NeteaseMusic.conf
-- h2y：（2021-03-29停更）
-     - 总链接，内有说明，并非直接下载：
-         - https://github.com/h2y/Shadowrocket-ADBlock-Rules
-     - 黑名单过滤 + 广告：
-         - 黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
-         - 功能：
-             - 代理：被墙的网站（GFWList）
-             - 直连：正常的网站
-             - 包含广告过滤
-         - 规则地址：https://git.io/JfIXs
-     - 白名单过滤 + 广告：
-         - 白名单中包含了境外网站中可以访问的那些，对不确定的网站则默认代理。
-         - 功能：
-             - 直连：top500 网站中可直连的境外网站、中国网站
-             - 代理：默认代理其余的所有境外网站
-             - 包含广告过滤
-         - 规则地址：https://git.io/JfIXo
+#### h2y：（2021-03-29停更）
+ - 总链接，内有说明，并非直接下载：
+     - https://github.com/h2y/Shadowrocket-ADBlock-Rules
+ - 黑名单过滤 + 广告：
+     - 黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
+     - 功能：
+         - 代理：被墙的网站（GFWList）
+         - 直连：正常的网站
+         - 包含广告过滤
+     - 规则地址：https://git.io/JfIXs
+ - 白名单过滤 + 广告：
+     - 白名单中包含了境外网站中可以访问的那些，对不确定的网站则默认代理。
+     - 功能：
+         - 直连：top500 网站中可直连的境外网站、中国网站
+         - 代理：默认代理其余的所有境外网站
+         - 包含广告过滤
+     - 规则地址：https://git.io/JfIXo
 ### 订阅地址正则表达式
