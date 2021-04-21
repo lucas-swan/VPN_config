@@ -18,7 +18,7 @@
 - 仅根据自用感觉主观做推荐
 
 ### 远程文件地址（除特别说明外，均可直接复制地址添加到远程文件下载）
-- 解锁网易云：（二选一，一样的）
+#### 解锁网易云：（二选一，一样的）
     - 规则地址：https://wy.ydlrqx.com/WangYiMusic.conf
     - 规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/NeteaseMusic.conf
 - h2y：（2021-03-29停更）
