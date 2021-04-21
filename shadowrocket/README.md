@@ -1,6 +1,6 @@
-## 小火箭说明配置
+# 小火箭说明配置
 编写日期2021.4.21
-### 设置
+## 设置
 1. 延迟测试方法
     - CONNECT--打开
 2. 订阅
@@ -8,23 +8,23 @@
       - 自动后台更新--打开
       - 根据Ping排序--打开
   
-### 配置
+## 配置
 1. 右上角＋号
 2. 填入地址点击下载
 3. 远程文件处出现新增的配置文件--点击改文件--使用配置（若出现“未完成该操作。无效的自变量”，打开VPN后在重新操作此步即可）
 4. 本地文件新增远程文件下载下来的配置文件--点击该文件-使用配置
 
-### 远程文件说明 :
+## 远程文件说明 :
 - 只是搬运和同步更新大佬脚本，不负责维护脚本！
  - 仅根据自用感觉主观做推荐
 
-### 远程文件地址（除特别说明外，均可直接复制地址添加到远程文件下载）
+## 远程文件地址（除特别说明外，均可直接复制地址添加到远程文件下载）
 
-#### 解锁网易云：（二选一，一样的）
+### 解锁网易云：（二选一，一样的）
  - 规则地址：https://wy.ydlrqx.com/WangYiMusic.conf
  - 规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/NeteaseMusic.conf
 
-#### h2y：（2021-03-29停更）【推荐，自用】
+### h2y：（2021-03-29停更）【推荐，自用】
  - 总链接，内含说明，并非直接下载：
      - github链接：https://github.com/h2y/Shadowrocket-ADBlock-Rules
  - 黑名单过滤 + 广告：
@@ -42,7 +42,7 @@
         - 包含广告过滤
      - 规则地址：https://git.io/JfIXo
  
- #### lhie1：（最近更新：2021-3-6）【推荐，自用】
+ ### lhie1：（最近更新：2021-3-6）【推荐，自用】
 - 总链接，内含说明，并非直接下载：
     - github链接：https://github.com/lhie1/Rules/tree/master
 - 功能：
@@ -67,4 +67,4 @@
     - Apple 服务加速（App Store、Apple Music、Apple流媒体、iCloud备份、iCloud Drive、iTunes 等）
     - 国外常用网站加速（Google/Youtube/Twitter/Facebook/instagram/wikipedia/Github 等）
 - 规则地址：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket/Complete.conf
-### 订阅地址正则表达式
+## 订阅地址正则表达式
