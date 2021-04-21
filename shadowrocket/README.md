@@ -67,4 +67,24 @@
     - Apple 服务加速（App Store、Apple Music、Apple流媒体、iCloud备份、iCloud Drive、iTunes 等）
     - 国外常用网站加速（Google/Youtube/Twitter/Facebook/instagram/wikipedia/Github 等）
 - 规则地址：https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket/Complete.conf
-## 订阅地址正则表达式
+### w37fhy
+- 总链接，内含说明，并非直接下载：
+    - github地址：https://github.com/w37fhy/QuantumultX
+- 懒人配置：（最近更新：2021.1.21）
+    - 功能：
+        - 包含策略组和分流规则
+        - 常用签到定时任务
+        - 获取Cookie等脚本
+    - 规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/shadowrocket_diy.conf
+ ### Tartarus2014（最近更新：2021.2.18）
+ - 总链接，内含说明，并非直接下载：
+    - github地址：https://github.com/Tartarus2014/Shadowrocket-Script
+- 规则地址：https://raw.githubusercontent.com/Tartarus2014/Shadowrocket-Script/main/Shadowrocket.conf
+### blackmatrix7（脚本大佬，细分所有过滤，我还没看）
+### Hackl0us （最近更新：2020.12.23）
+- 总链接，内含说明，并非直接下载：
+    - github地址：https://github.com/Hackl0us/SS-Rule-Snippet
+- 规则地址：https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/LAZY_RULES/Shadowrocket.conf
+## 订阅地址表达式
+- 关键词或使用“|”:关键词A|关键词B
+- 节点去除使用正则表达式：/^((?!需要排除的关键词).)*$/
