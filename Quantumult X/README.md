@@ -11,11 +11,49 @@
     - 策略组
     - 全套神机规则
     - 定时任务
-## 个人配置说明：
+## 个人配置引用说明：
 #### [general]部分：
+- 引用
+  - resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
 ## 远程文件说明 :
 - 只是搬运和同步更新大佬脚本，不负责维护脚本！
 - 仅根据自用感觉主观做推荐
 - 远程文件会覆盖本地配置，请谨慎使用
 
 ## 远程文件地址（除特别说明外，均可直接复制地址添加到远程文件下载）
+#### erdongchanyo【推荐，自用基于此修改】
+- 总链接，内含说明，并非直接下载：
+  - github链接：https://github.com/h2y/Shadowrocket-ADBlock-Rules
+- Pro版：quantumult_EDC-Lazy.conf
+  - 功能：
+    - 较为完整的策略组
+    - 分流规则
+    - 常用远程重写
+    - 部分薅羊毛定时任务
+  - 地址：https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/quantumult_EDC-Lazy.conf
+#### w37fhy
+- 总链接，内含说明，并非直接下载：
+  - github地址：https://github.com/w37fhy/QuantumultX
+懒人配置：（最近更新：2021.2.11）
+功能：
+包含策略组和分流规则
+常用签到定时任务
+获取Cookie等脚本
+规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf
+#### blackmatrix7（脚本大佬，细分所有过滤，我还没看）
+#### Hackl0us （最近更新：28 Nov 2020）
+- 总链接，内含说明，并非直接下载：
+  github地址：https://github.com/Hackl0us/SS-Rule-Snippet
+- 规则地址：https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/LAZY_RULES/QuantumultX.conf
+#### Tartarus2014（最近更新：2021.2.18）
+- 总链接，内含说明，并非直接下载：
+  - github地址：https://github.com/Tartarus2014/QuantumultX-Script
+- 规则地址：https://raw.githubusercontent.com/Tartarus2014/Shadowrocket-Script/main/Shadowrocket.conf
+#### DivineEngine（神机规则：分流，重写都要用他的）
+- 总链接，内含说明，并非直接下载：
+  - github地址：https://github.com/DivineEngine/Profiles/tree/master
+- 神机地址：https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Outbound.conf
+#### limbopro（毒奶）
+- 总链接，内含说明，并非直接下载：
+  - github地址：https://github.com/limbopro/Profiles4limbo
+- 地址：https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf
