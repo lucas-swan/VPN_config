@@ -11,10 +11,9 @@
     - 策略组
     - 全套神机规则
     - 定时任务
-## 个人配置引用说明：
-#### [general]部分：
-- 引用
-  - resource_parser_url=https://cdn.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
+## 个人配置说明：
+- 详细请跳转至：
+  - https://github.com/lucas-swan/config/blob/main/Quantumult%20X/conf_readme.md
 ## 远程文件说明 :
 - 只是搬运和同步更新大佬脚本，不负责维护脚本！
 - 仅根据自用感觉主观做推荐
@@ -34,12 +33,8 @@
 #### w37fhy
 - 总链接，内含说明，并非直接下载：
   - github地址：https://github.com/w37fhy/QuantumultX
-懒人配置：（最近更新：2021.2.11）
-功能：
-包含策略组和分流规则
-常用签到定时任务
-获取Cookie等脚本
-规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf
+- 懒人配置：（最近更新：2021.2.11）
+  - 规则地址：https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf
 #### blackmatrix7（脚本大佬，细分所有过滤，我还没看）
 #### Hackl0us （最近更新：28 Nov 2020）
 - 总链接，内含说明，并非直接下载：
@@ -57,3 +52,10 @@
 - 总链接，内含说明，并非直接下载：
   - github地址：https://github.com/limbopro/Profiles4limbo
 - 地址：https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf
+#### KOP-XIAO（资源解析器大佬）
+- 总链接，内含说明，并非直接下载：
+  - github地址：https://github.com/KOP-XIAO/QuantumultX
+- 地址：（含有旧版神机规则，可查看策略属性）
+  - https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf
+#### lhie1（没有一键配置，有拆分）
+- 地址：https://github.com/lhie1/Rules/tree/master/QuantumultX
