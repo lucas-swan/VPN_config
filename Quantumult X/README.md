@@ -20,6 +20,8 @@
 - 远程文件会覆盖本地配置，请谨慎使用
 
 ## 远程文件地址（除特别说明外，均可直接复制地址添加到远程文件下载）
+#### geoip替换（Hackl0us）
+- https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
 #### erdongchanyo【推荐，自用基于此修改】
 - 总链接，内含说明，并非直接下载：
   - github链接：https://github.com/h2y/Shadowrocket-ADBlock-Rules
