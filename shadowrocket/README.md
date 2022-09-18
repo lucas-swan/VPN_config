@@ -10,7 +10,7 @@
 3. 复写
       - 配置-模块-新增
         - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Shadowrocket/AllInOne/AllInOne.sgmodule
- --- 以下未更新2021.4.19
+# 以下未更新2021.4.19
 ## 配置
 1. 右上角＋号
 2. 填入地址点击下载
