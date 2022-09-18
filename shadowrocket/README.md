@@ -1,5 +1,5 @@
 # 小火箭说明配置
-编写日期2021.4.21
+编写日期2022.9.19
 ## 设置
 1. 延迟测试方法
     - CONNECT--打开
@@ -7,7 +7,10 @@
       - 打开时更新--打开
       - 自动后台更新--打开
       - 根据Ping排序--打开
-  
+3. 复写
+      - 配置-模块-新增
+        - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Shadowrocket/AllInOne/AllInOne.sgmodule
+ ----以下未更新2021.4.19
 ## 配置
 1. 右上角＋号
 2. 填入地址点击下载
